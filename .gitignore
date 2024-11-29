@@ -1,0 +1,118 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Dependency directories
+node_modules/
+bower_components/
+
+# Cypress files
+cypress/screenshots/
+cypress/videos/
+cypress.env.json
+
+# Coverage directory
+coverage/
+
+# Build output
+dist/
+build/
+
+# IDE/editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-generated files and directories
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment variable files
+.env
+.env.*.local
+
+# Test and cache files
+jest/
+.nyc_output/
+cypress/reports/
+
+# Git-related files
+.git/
+*.diff
+
+# Lock files (use one package manager consistently)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Linux files
+*.~lock.*
+
+# Project-specific files
+*.bak
+*.log
+*.swp
+*.tmp
+.idea/
+.project
+.classpath
+*.iml
+
+# Debug files
+*.pid
+
+# Generated files
+*.gz
+*.zip
+*.tar
+*.tgz
+
+# Compiled TypeScript files
+*.tsbuildinfo
+out/
+dist/
+
+# SASS/SCSS cache files
+.sass-cache/
+
+# AWS credentials (add other sensitive keys as needed)
+.aws/
+.terraform/
+
+# NPM cache
+.npm/
+
+# Yarn Integrity Check
+.yarn-integrity
+.yarn/
+
+# Testing tools
+cypress/report/
+mochawesome-report/
+
+# Python (if part of your toolchain)
+__pycache__/
+*.py[cod]
+
+# Temporary storage from Cypress plugin work
+.cypress-temp/
+
+# IDE-specific metadata (e.g., JetBrains)
+.idea/**.*
+*.user-config-*

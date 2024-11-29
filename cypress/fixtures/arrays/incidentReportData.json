@@ -1,0 +1,40 @@
+{
+  "First Name": "Engineer",
+  "Last Name": "Automate",
+  "Issue Title": "Fox Hole",
+  "Office Phone": "1234567890",
+  "Mobile": "1234567890",
+  "Fax": "1234567890",
+  "Teams": [
+    { "name": "Business Analysis", "value": "2" },
+    { "name": "Cybersecurity", "value": "1" }
+  ],
+  "Branch": [
+    { "name": "Houston", "value": "5" },
+    { "name": "California Uptown Branch", "value": "74" },
+    { "name": "Brisbane", "value": "123" }
+  ],
+  "Assigned To": "Festus",
+  "Priority": [
+    { "value": "High", "name": "High" },
+    { "value": "Medium", "name": "Medium" },
+    { "value": "Low", "name": "Low" }
+  ],
+  "Status": [
+    { "value": "New", "name": "New" },
+    { "value": "Open", "name": "Open" },
+    { "value": "Closed", "name": "Closed" },
+    { "value": "Resolved", "name": "Resolved" },
+    { "value": "Pending", "name": "Pending" }
+  ],
+  "Severity": [
+    { "value": "High", "name": "High" },
+    { "value": "Medium", "name": "Medium" },
+    { "value": "Low", "name": "Low" }
+  ],
+  "Ticket Opened": "",
+  "Ticket Closed": "",
+  "Address/Location": "Qwerty Fox Hole",
+  "Issue Description": "Qwerty Fox Hole 1234567890",
+  "Comment": "Try Again"
+}

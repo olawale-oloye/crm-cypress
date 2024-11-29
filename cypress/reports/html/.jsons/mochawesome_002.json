@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-11-28T10:53:15.886Z",
+    "end": "2024-11-28T10:53:39.838Z",
+    "duration": 23952,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 1,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "113d7bd7-dcee-4b1b-9536-baf7315cd187",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test\\regressionTest\\Tc01.cy.js",
+      "file": "cypress\\e2e\\test\\regressionTest\\Tc01.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "184909ad-37ca-4dc4-b791-3ed8f1ae9c9d",
+          "title": "",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify user can add new Incident Entry",
+              "fullTitle": " Verify user can add new Incident Entry",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('/');\n_landingPage.landingPage.checkLogoTitle().checkSupportText().checkTitle().checkRegMemberButton().checkRegVolunteerButton().checkRegAlumniButton().accessLoginPage().performUsername(dataL.Username).performPassword(dataL.Password).performRememberMe()\n// .performResetPassword()\n.performLoginButton().checkTitleText().checkGlobalDashboard().checkUserLocalCRM().checkCalender().checkTeams().checkDashboard().checkmyCRMMarshal().checkDocuments().checkYearlyGoal().accessProductRequisition().accessProjectRequest().accessTask().accessIncidentReport().checkVisibilityPageTitle().checkVisibilityPageTitle().checkPageTitle('Incident Report').checkVisibilityTotalRecords().checkTotalRecords('Total Records:').checkVisibilityDefaultView().checkVisibilitySearchIcon().clickSearchIcon()\n// .checkTicketID()\n// .performExport()\n// .checkTableHead()\n// .setTableRecordExpanded()\n.performAddEntry('Add Entry').setFirstName('readonly', this.data['First Name']).setLastName('readonly', this.data['Last Name']).setIssueTitle(this.data['Issue Title']).setOfficePhone(this.data['Office Phone']).setMobile(this.data.Mobile).setFax(this.data.Fax).setTeamsDropdown(this.data).setBranchDropDown(this.data).setPriorityDropDown(this.data).setStatusDropDown(this.data).setSeverityDropDown(this.data).setIssueDescription(this.data['Issue Description']).setComment(this.data.Comment).setSubmitButton();\n// .setResetButton()\n// .setCancelButton();",
+              "err": {},
+              "uuid": "447875bf-c06e-41e2-acc0-6a622b4beb82",
+              "parentUUID": "184909ad-37ca-4dc4-b791-3ed8f1ae9c9d",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "447875bf-c06e-41e2-acc0-6a622b4beb82"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "CRM Marchal Automation POM",
+        "embeddedScreenshots": true,
+        "inlineAssests": true,
+        "savAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

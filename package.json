@@ -1,0 +1,29 @@
+{
+  "name": "crn-nov20",
+  "version": "1.0.0",
+  "description": "CRM Marshal Automation with Cypress (SamTech)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "test-electron": "cypress run --browser electron",
+    "test-electron-headed": "cypress run --browser electron --headed",
+    "test-chrome": "cypress run --browser chrome",
+    "test-chrome-headed": "cypress run --browser chrome --headed",
+    "test-smoke": "cypress run --browser chrome --spec 'cypress/e2e/smokeTest'",
+    "test-regression": "cypress run --browser --spec 'cypress/e2e/regressionTest'"
+  },
+  "keywords": [
+    "CRM",
+    "Marshal",
+    "Automation",
+    "Cypress"
+  ],
+  "author": "Olawale Oloye",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.16.0",
+    "cypress-drag-drop": "^1.1.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}

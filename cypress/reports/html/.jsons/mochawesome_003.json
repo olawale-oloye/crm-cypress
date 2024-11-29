@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-11-28T10:54:22.220Z",
+    "end": "2024-11-28T10:54:31.209Z",
+    "duration": 8989,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ff8d3933-2676-4036-a0a4-44523e78ab95",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test\\regressionTest\\Tc01.cy.js",
+      "file": "cypress\\e2e\\test\\regressionTest\\Tc01.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b06e620a-3873-46d5-92ab-d7d18dfd629e",
+          "title": "",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify user can add new Incident Entry",
+              "fullTitle": " Verify user can add new Incident Entry",
+              "timedOut": null,
+              "duration": 8852,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('/');\n_landingPage.landingPage.checkLogoTitle().checkSupportText().checkTitle().checkRegMemberButton().checkRegVolunteerButton().checkRegAlumniButton().accessLoginPage().performUsername(dataL.Username).performPassword(dataL.Password).performRememberMe()\n// .performResetPassword()\n.performLoginButton();\n/* .checkTitleText()\n  .checkGlobalDashboard()\n  .checkUserLocalCRM()\n  .checkCalender()\n  .checkTeams()\n  .checkDashboard()\n  .checkmyCRMMarshal()\n  .checkDocuments()\n  .checkYearlyGoal()\n  .accessProductRequisition()\n  .accessProjectRequest()\n  .accessTask()\n  .accessIncidentReport()\n  .checkVisibilityPageTitle()\n  .checkVisibilityPageTitle()\n  .checkPageTitle('Incident Report')\n  .checkVisibilityTotalRecords()\n  .checkTotalRecords('Total Records:')\n  .checkVisibilityDefaultView()\n  .checkVisibilitySearchIcon()\n  .clickSearchIcon()\n  // .checkTicketID()\n  // .performExport()\n  // .checkTableHead()\n  // .setTableRecordExpanded()\n  .performAddEntry('Add Entry')\n  .setFirstName('readonly', this.data['First Name'])\n  .setLastName('readonly', this.data['Last Name'])\n  .setIssueTitle(this.data['Issue Title'])\n  .setOfficePhone(this.data['Office Phone'])\n  .setMobile(this.data.Mobile)\n  .setFax(this.data.Fax)\n  .setTeamsDropdown(this.data)\n  .setBranchDropDown(this.data)\n  .setPriorityDropDown(this.data)\n  .setStatusDropDown(this.data)\n  .setSeverityDropDown(this.data)\n  .setIssueDescription(this.data['Issue Description'])\n  .setComment(this.data.Comment)\n  .setSubmitButton(); */\n// .setResetButton()\n// .setCancelButton();",
+              "err": {},
+              "uuid": "264cde73-15f5-4ad2-8d72-74efcbcfd130",
+              "parentUUID": "b06e620a-3873-46d5-92ab-d7d18dfd629e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "264cde73-15f5-4ad2-8d72-74efcbcfd130"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8852,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "CRM Marchal Automation POM",
+        "embeddedScreenshots": true,
+        "inlineAssests": true,
+        "savAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
